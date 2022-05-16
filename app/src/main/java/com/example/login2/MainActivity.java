@@ -60,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(),LoginActivity.class);
                 startActivity(intent);
+                //TODO this text id just for some change because I want see changes in git
             }
         });
     }
